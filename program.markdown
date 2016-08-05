@@ -106,7 +106,7 @@ eGeo <- newE hg3d [
     ]
     
 -- rotate cube
-rotateCube eGeo = forever $ do
+rotateCube eGeo = forever \$ do
                       updateC eGeo ctOrientation (\u -> (rotU vec3Z 0.02) .*. u)
                       sleepFor (msecT 12)
 ```
