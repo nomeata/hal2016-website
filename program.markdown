@@ -61,7 +61,8 @@ JavaScript.
 We reify the API of a library, so we can represent nested calls as terms.
 Using a smallcheck-like enumeration of terms and contexts,
 we find problematic API usages that take a lot of time.
-As an example, we investigate the standard pretty library,
+[As an example](https://github.com/jwaldmann/pretty-test), 
+we investigate the standard [pretty library](https://hackage.haskell.org/package/pretty),
 and find [quadratic behaviour](https://github.com/haskell/pretty/issues/32#issuecomment-223312412).
 
 ### Generalized Algebraic Dynamic Programming: Theory and Applications in Bioinformatics and Linguistics {#stadler}
