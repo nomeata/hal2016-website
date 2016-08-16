@@ -118,7 +118,7 @@ Local information
 
 Registration for HAL and the rest of [L-DEC](http://nfa.imn.htwk-leipzig.de/LDEC2016/) is open now. Please refer to the [Registration page](http://nfa.imn.htwk-leipzig.de/LDEC2016/registration/) page for details.
 
-The workshop will take place at the [HTKW Leipzig](http://www.htwk-leipzig.de/), in the [Gutenberg-Bau](http://www.htwk-leipzig.de/de/hochschule/ueber-die-htwk-leipzig/gebaeudeuebersicht/gutenberg-bau/).
+The workshop will take place at the [HTWK Leipzig](http://www.htwk-leipzig.de/), in the [Gutenberg-Bau](http://www.htwk-leipzig.de/de/hochschule/ueber-die-htwk-leipzig/gebaeudeuebersicht/gutenberg-bau/).
 
 
 
