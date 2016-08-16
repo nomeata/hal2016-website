@@ -58,6 +58,7 @@ You can listen to the music on soundcloud at <https://soundcloud.com/anton-kho/>
 
 * *[Johannes Waldmann]:*<br/>
   **Automated Performance Measurements**
+  <small>[abstract](program.html#waldmann)</small>
 * *Sarah J. Berkemer, [Peter F. Stadler] and [Christian Hoener Zu Siederdissen]:*<br/>
   **Generalized Algebraic Dynamic Programming: Theory and Applications in Bioinformatics and Linguistics**
   <small>[abstract](program.html#stadler)</small>
