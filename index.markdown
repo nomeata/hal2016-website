@@ -31,15 +31,84 @@ Dates
 Program
 -------
 
-We are happy to announce that we have accepted 11 talks and 4 tutorials. See below for a concise list or the [full program](program.html) for the list including abstracts.
+We are happy to announce that we have accepted 11 talks and 4 tutorials. See below for a concise schedule or the [full program](program.html) for the list including abstracts.
 
-### Invited Speaker
+#### Session 1: Wednesday, 11:00-12:30
 
-**Preserving Privacy with Monads**
-<small>[abstract](program.html#russo)</small><br/>
-*by [Alejandro Russo](http://www.cse.chalmers.se/~russo/)*
+* **Dependently Typed Heaps**
+  <small>[abstract](program.html#brunjes)</small>  
+  *by [Lars Brünjes]*
+* **Random access lists, nested data types and numeral systems**
+  <small>[abstract](program.html#komuves)</small>  
+  *by Balázs Kőműves*
+* **Generalized Algebraic Dynamic Programming: Theory and Applications in Bioinformatics and Linguistics**
+  <small>[abstract](program.html#stadler)</small>  
+  *by Sarah J. Berkemer, [Peter F. Stadler] and [Christian Hoener Zu Siederdissen]*
 
-### Invited Musical Performance
+#### Session 2: Wednesday, 14:00-15:30
+
+* **Invited Talk:**
+  **Preserving Privacy with Monads**
+  <small>[abstract](program.html#russo)</small>  
+  *by [Alejandro Russo](http://www.cse.chalmers.se/~russo/)*
+* **Csound-expression Haskell framework for computer music**
+  <small>[abstract](program.html#kholomiov-talk)</small>  
+  *by [Anton Kholomiov]:*
+
+#### Session 3: Wednesday, 16:00-17:30
+
+* **HGamer3D - a toolset for developing games with Haskell**
+  <small>[abstract](program.html#althainz-talk)</small>  
+  *by Peter Althainz*
+* **Simple blog engine with shape functors and generic eliminators for ADTs**
+  <small>[abstract](program.html#penez)</small>  
+  *by Andor Pénzes*
+* **Project report: building a web-application with servant, lucid, and digestive-functors**
+  <small>[abstract](program.html#fischmann)</small>  
+  *by Matthias Fischmann and Andor Pénzes*
+
+#### Session 4: Thursday, 9:00-10:30, parallel tutorials
+
+* **Workshop: creating computer music with Haskell**
+  <small>[abstract](program.html#kholomiov-tutorial)</small>  
+  *by [Anton Kholomiov]*
+* **Ten example uses of monads**  
+  *by Philipp Schuster*
+
+#### Session 5: Thursday, 11:00-12:30, parallel tutorials
+
+* **Efficient signal processing using Haskell and LLVM**
+  <small>[abstract](program.html#thielemann)</small>  
+  *by Henning Thielemann*<br/>
+* **HGamer3D - do it yourself**
+  <small>[abstract](program.html#althainz-tutorial)</small>  
+  *by Peter Althainz*<br/>
+
+
+#### Session 6: Thursday, 14:00-16:30
+
+* **Plugin Architectures in Haskell**
+  <small>[abstract](program.html#graf)</small>  
+  *by Sebastian Graf*
+* **Management at Algorithmic Financial Markets**
+  <small>[abstract](program.html#winschel)</small>  
+  *by Viktor Winschel*
+* **Store: An Efficient Binary Serialization Library**
+  <small>[abstract](program.html#kant)</small>  
+  *by Philipp Kant*
+* **Automated Performance Measurements**
+  <small>[abstract](program.html#waldmann)</small>  
+  *by [Johannes Waldmann]*
+
+[Johannes Waldmann]: http://www.imn.htwk-leipzig.de/~waldmann/
+[Peter F. Stadler]: http://www.bioinf.uni-leipzig.de/
+[Christian Hoener Zu Siederdissen]: http://www.bioinf.uni-leipzig.de/~choener/index.html
+[Lars Brünjes]:  https://github.com/brunjlar
+[Anton Kholomiov]: https://github.com/anton-k
+
+
+Musical Performance
+-------------------
 
 *by [Anton Kholomiov]*
 
@@ -53,64 +122,7 @@ listeners.
 
 You can listen to the music on soundcloud at <https://soundcloud.com/anton-kho/> and <https://soundcloud.com/kailash-project>.
 
-
-### Talks
-
-* *[Johannes Waldmann]:*<br/>
-  **Automated Performance Measurements**
-  <small>[abstract](program.html#waldmann)</small>
-* *Sarah J. Berkemer, [Peter F. Stadler] and [Christian Hoener Zu Siederdissen]:*<br/>
-  **Generalized Algebraic Dynamic Programming: Theory and Applications in Bioinformatics and Linguistics**
-  <small>[abstract](program.html#stadler)</small>
-* *Peter Althainz:*<br/>
-  **HGamer3D - a toolset for developing games with Haskell**
-  <small>[abstract](program.html#althainz-talk)</small>
-* *Viktor Winschel:*<br/>
-  **Management at Algorithmic Financial Markets**
-  <small>[abstract](program.html#winschel)</small>
-* *Matthias Fischmann and Andor Pénzes:*<br/>
-  **Project report: building a web-application with servant, lucid, and digestive-functors**
-  <small>[abstract](program.html#fischmann)</small>
-* *[Lars Brünjes]:*<br/>
-  **Dependently Typed Heaps**
-  <small>[abstract](program.html#brunjes)</small>
-* *Balázs Kőműves:*<br/>
-  **Random access lists, nested data types and numeral systems**
-  <small>[abstract](program.html#komuves)</small>
-* *Sebastian Graf:*<br/>
-  **Plugin Architectures in Haskell**
-  <small>[abstract](program.html#graf)</small>
-* *Philipp Kant:* <br/>
-  **Store: An Efficient Binary Serialization Library**
-  <small>[abstract](program.html#kant)</small>
-* *[Anton Kholomiov]:* <br/>
-  **Csound-expression Haskell framework for computer music**
-  <small>[abstract](program.html#kholomiov-talk)</small>
-* *Andor Pénzes:* <br/>
-  **Simple blog engine with shape functors and generic eliminators for ADTs**
-  <small>[abstract](program.html#penez)</small>
-
-[Johannes Waldmann]: http://www.imn.htwk-leipzig.de/~waldmann/
-[Peter F. Stadler]: http://www.bioinf.uni-leipzig.de/
-[Christian Hoener Zu Siederdissen]: http://www.bioinf.uni-leipzig.de/~choener/index.html
-[Lars Brünjes]:  https://github.com/brunjlar
-[Anton Kholomiov]: https://github.com/anton-k
-
-### Tutorials
-
-* *Henning Thielemann:*<br/>
-  **Efficient signal processing using Haskell and LLVM**
-  <small>[abstract](program.html#thielemann)</small>
-* *[Anton Kholomiov]:* <br/>
-  **Workshop: creating computer music with Haskell**
-  <small>[abstract](program.html#kholomiov-tutorial)</small>
-* *Philipp Schuster:* <br/>
-  **Ten example uses of monads**
-* *Peter Althainz:*<br/>
-  **HGamer3D - do it yourself**
-  <small>[abstract](program.html#althainz-tutorial)</small>
-
-The schedule will be finalized and announced at some later time.
+Anton will perform during on Wednesday at the HAL Barbeque, which starts at 19:00.
 
 
 Local information
