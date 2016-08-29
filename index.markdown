@@ -31,7 +31,7 @@ Dates
 Program
 -------
 
-We are happy to announce that we have accepted 11 talks and 4 tutorials. See below for a concise schedule or the [full program](program.html) for the list including abstracts.
+We are happy to announce that we have accepted 11 talks and 4 tutorials. See below for a concise schedule, the [full program](program.html) for the list including abstracts and the [L-DEC program](http://nfa.imn.htwk-leipzig.de/LDEC2016/program/) for what else is happening this week.
 
 #### Session 1: Wednesday, 11:00-12:30
 
