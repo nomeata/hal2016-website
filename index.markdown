@@ -60,9 +60,9 @@ We are happy to announce that we have accepted 11 talks and 4 tutorials. See bel
 * **HGamer3D - a toolset for developing games with Haskell**
   <small>[abstract](program.html#althainz-talk)</small>  
   *by Peter Althainz*
-* **Simple blog engine with shape functors and generic eliminators for ADTs**
-  <small>[abstract](program.html#penez)</small>  
-  *by Andor Pénzes*
+* **Management at Algorithmic Financial Markets**
+  <small>[abstract](program.html#winschel)</small>  
+  *by Viktor Winschel*
 * **Project report: building a web-application with servant, lucid, and digestive-functors**
   <small>[abstract](program.html#fischmann)</small>  
   *by Matthias Fischmann and Andor Pénzes*
@@ -88,12 +88,12 @@ We are happy to announce that we have accepted 11 talks and 4 tutorials. See bel
 
 #### Session 6: Thursday, 14:00-16:30
 
+* **Simple blog engine with shape functors and generic eliminators for ADTs**
+  <small>[abstract](program.html#penez)</small>  
+  *by Andor Pénzes*
 * **Plugin Architectures in Haskell**
   <small>[abstract](program.html#graf)</small>  
   *by Sebastian Graf*
-* **Management at Algorithmic Financial Markets**
-  <small>[abstract](program.html#winschel)</small>  
-  *by Viktor Winschel*
 * **Store: An Efficient Binary Serialization Library**
   <small>[abstract](program.html#kant)</small>  
   *by Philipp Kant*
