@@ -72,8 +72,9 @@ We are happy to announce that we have accepted 11 talks and 4 tutorials. See bel
 * **Workshop: creating computer music with Haskell**
   <small>[abstract](program.html#kholomiov-tutorial)</small>  
   *by [Anton Kholomiov]*
-* **Ten example uses of monads**  
-  *by Philipp Schuster*
+* **Ten example uses of monads**
+  <small>[abstract](program.html#schuster)</small>  
+  *by [Philipp Schuster]*
 
 #### Session 5: Thursday, 11:00-12:30, parallel tutorials
 
@@ -105,6 +106,7 @@ We are happy to announce that we have accepted 11 talks and 4 tutorials. See bel
 [Christian Hoener Zu Siederdissen]: http://www.bioinf.uni-leipzig.de/~choener/index.html
 [Lars Brünjes]:  https://github.com/brunjlar
 [Anton Kholomiov]: https://github.com/anton-k
+[Philipp Schuster]: https://github.com/phischu
 
 
 Musical Performance
