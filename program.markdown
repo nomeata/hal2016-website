@@ -522,12 +522,12 @@ the focus is on how to get things done with `synthesizer-llvm`.
 
 Since LLVM changes slightly with every release
 my LLVM bindings got a bit out of date.
-I am currently updating them.
-The tricky part to install is the package `llvm-ffi`.
-If you want to attend the tutorial and want to code with us,
+I have only recently updated them.
+Please follow the [instruction hints](http://hub.darcs.net/thielema/synthi-llvm2016/browse/installation.md)
+before attending the tutorial.
+We will not have time to fix issues in the tutorial.
+If you want to be notified about short-term updates,
 please send me your e-mail.
-I will then notify you when my packages are ready for installation
-and I will give you hints on the installation.
 
 
 References:
