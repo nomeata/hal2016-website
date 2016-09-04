@@ -1,4 +1,6 @@
-# Installations for the `synthesizer-llvm` tutorial
+---
+title: Installations for the synthesizer-llvm tutorial
+---
 
 The following instructions might appear to be lengthy and cumbersome,
 but they boil essentially down to:
