@@ -55,7 +55,7 @@ main = hakyllWith config $ do
                                           , writerStandalone = True
                                           }
 
-    match "program.markdown" $ do
+    match "*.markdown" $ do
         route $ setExtension "html"
         compile $
             pandocCompiler

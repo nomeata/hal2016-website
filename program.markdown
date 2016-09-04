@@ -523,7 +523,7 @@ the focus is on how to get things done with `synthesizer-llvm`.
 Since LLVM changes slightly with every release
 my LLVM bindings got a bit out of date.
 I have only recently updated them.
-Please follow the [instruction hints](http://hub.darcs.net/thielema/synthi-llvm2016/browse/installation.md)
+Please follow the [instruction hints](synthi-llvm-installation.html)
 before attending the tutorial.
 We will not have time to fix issues in the tutorial.
 If you want to be notified about short-term updates,
