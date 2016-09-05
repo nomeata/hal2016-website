@@ -53,7 +53,7 @@ We are happy to announce that we have accepted 11 talks and 4 tutorials. See bel
   *by [Alejandro Russo](http://www.cse.chalmers.se/~russo/)*
 * **Csound-expression Haskell framework for computer music**
   <small>[abstract](program.html#kholomiov-talk)</small>  
-  *by [Anton Kholomiov]:*
+  *by [Anton Kholomiov]*
 
 #### Session 3: Wednesday, 16:00-17:30
 
