@@ -33,7 +33,7 @@ Program
 
 We are happy to announce that we have accepted 11 talks and 4 tutorials. See below for a concise schedule, the [full program](program.html) for the list including abstracts and the [L-DEC program](http://nfa.imn.htwk-leipzig.de/LDEC2016/program/) for what else is happening this week.
 
-#### Session 1: Wednesday, 11:00-12:30
+#### Session 1: Wednesday, 11:00-12:30 (Chaired by Matthias Fischmann)
 
 * **Dependently Typed Heaps**
   <small>[abstract](program.html#brunjes)</small>  
@@ -45,7 +45,7 @@ We are happy to announce that we have accepted 11 talks and 4 tutorials. See bel
   <small>[abstract](program.html#stadler)</small>  
   *by Sarah J. Berkemer, [Peter F. Stadler] and [Christian Hoener Zu Siederdissen]*
 
-#### Session 2: Wednesday, 14:00-15:30
+#### Session 2: Wednesday, 14:00-15:30 (Chaired by Andreas Abel)
 
 * **Invited Talk:**
   **Preserving Privacy with Monads**
@@ -55,7 +55,7 @@ We are happy to announce that we have accepted 11 talks and 4 tutorials. See bel
   <small>[abstract](program.html#kholomiov-talk)</small>  
   *by [Anton Kholomiov]*
 
-#### Session 3: Wednesday, 16:00-17:30
+#### Session 3: Wednesday, 16:00-17:30 (Chaired by Henning Thielemann)
 
 * **HGamer3D - a toolset for developing games with Haskell**
   <small>[abstract](program.html#althainz-talk)</small>  
@@ -86,7 +86,7 @@ We are happy to announce that we have accepted 11 talks and 4 tutorials. See bel
   *by Peter Althainz*<br/>
 
 
-#### Session 6: Thursday, 14:00-16:30
+#### Session 6: Thursday, 14:00-16:30 (Chaired by Heinrich Apfelmus)
 
 * **Simple blog engine with shape functors and generic eliminators for ADTs**
   <small>[abstract](program.html#penez)</small>  
