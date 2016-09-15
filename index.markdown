@@ -36,7 +36,8 @@ We are happy to announce that we have accepted 11 talks and 4 tutorials. See bel
 #### Session 1: Wednesday, 11:00-12:30 (Chaired by Matthias Fischmann)
 
 * **Dependently Typed Heaps**
-  <small>[abstract](program.html#brunjes)</small>  
+  <small>[abstract](program.html#brunjes)</small>
+  <small>[abstract](slides/HAL2016-brunjes.pdf)</small>  
   *by [Lars Brünjes]*
 * **Random access lists, nested data types and numeral systems**
   <small>[abstract](program.html#komuves)</small>  
@@ -79,7 +80,8 @@ We are happy to announce that we have accepted 11 talks and 4 tutorials. See bel
 #### Session 5: Thursday, 11:00-12:30, parallel tutorials
 
 * **Efficient signal processing using Haskell and LLVM**
-  <small>[abstract](program.html#thielemann)</small>  
+  <small>[abstract](program.html#thielemann)</small>
+  <small>[slides](slides/HAL2016-thielemann.pdf)</small>  
   *by Henning Thielemann*<br/>
 * **HGamer3D - do it yourself**
   <small>[abstract](program.html#althainz-tutorial)</small>  

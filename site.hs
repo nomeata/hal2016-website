@@ -19,6 +19,10 @@ main = hakyllWith config $ do
         route   idRoute
         compile copyFileCompiler
 
+    match "slides/*" $ do
+        route   idRoute
+        compile copyFileCompiler
+
     match "css/fonts/*" $ do
         route   idRoute
         compile copyFileCompiler
