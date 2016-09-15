@@ -37,7 +37,7 @@ We are happy to announce that we have accepted 11 talks and 4 tutorials. See bel
 
 * **Dependently Typed Heaps**
   <small>[abstract](program.html#brunjes)</small>
-  <small>[abstract](slides/HAL2016-brunjes.pdf)</small>  
+  <small>[slides](slides/HAL2016-brunjes.pdf)</small>  
   *by [Lars Brünjes]*
 * **Random access lists, nested data types and numeral systems**
   <small>[abstract](program.html#komuves)</small>  
