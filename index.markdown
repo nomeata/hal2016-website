@@ -95,6 +95,7 @@ We are happy to announce that we have accepted 11 talks and 4 tutorials. See bel
   *by Andor Pénzes*
 * **Plugin Architectures in Haskell**
   <small>[abstract](program.html#graf)</small>  
+  <small>[slides](slides/HAL2016-graf.pdf)</small>  
   *by Sebastian Graf*
 * **Store: An Efficient Binary Serialization Library**
   <small>[abstract](program.html#kant)</small>  
