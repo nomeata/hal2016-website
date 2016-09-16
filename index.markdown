@@ -59,7 +59,8 @@ We are happy to announce that we have accepted 11 talks and 4 tutorials. See bel
 #### Session 3: Wednesday, 16:00-17:30 (Chaired by Henning Thielemann)
 
 * **HGamer3D - a toolset for developing games with Haskell**
-  <small>[abstract](program.html#althainz-talk)</small>  
+  <small>[abstract](program.html#althainz-talk)</small>
+  <small>[slides](slides/HAL2016-althainz.pdf)</small>  
   *by Peter Althainz*
 * **Management at Algorithmic Financial Markets**
   <small>[abstract](program.html#winschel)</small>  
