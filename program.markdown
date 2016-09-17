@@ -449,7 +449,7 @@ self contained and the whole program can be built from expressions. This
 feature allows us to construct music in the interactive style. We can create
 music in the REPL.
 
-### Simple blog engine with shape functors and generic eliminators for ADTs {#penez}
+### Simple blog engine with shape functors and generic eliminators for ADTs {#penzes}
 *by Andor Pénzes*
 
 Processing complex information via generic eliminators (GE), type holes,

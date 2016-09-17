@@ -92,7 +92,9 @@ We are happy to announce that we have accepted 11 talks and 4 tutorials. See bel
 #### Session 6: Thursday, 14:00-16:30 (Chaired by Heinrich Apfelmus)
 
 * **Simple blog engine with shape functors and generic eliminators for ADTs**
-  <small>[abstract](program.html#penez)</small>  
+  <small>[abstract](program.html#penzes)</small>
+  <small>[slides](slides/HAL2016-penzes.pdf)</small>
+  <small>[slide sources](slides/HAL2016-penzes.lhs)</small>  
   *by Andor Pénzes*
 * **Plugin Architectures in Haskell**
   <small>[abstract](program.html#graf)</small>  
