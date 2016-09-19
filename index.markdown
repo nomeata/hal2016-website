@@ -66,7 +66,9 @@ We are happy to announce that we have accepted 11 talks and 4 tutorials. See bel
   <small>[abstract](program.html#winschel)</small>  
   *by Viktor Winschel*
 * **Project report: building a web-application with servant, lucid, and digestive-functors**
-  <small>[abstract](program.html#fischmann)</small>  
+  <small>[abstract](program.html#fischmann)</small>
+  <small>[slides](slides/HAL2016-fischmann-penzes.pdf)</small>
+  <small>[slide sources](slides/HAL2016-fischmann-penzes.md)</small>  
   *by Matthias Fischmann and Andor Pénzes*
 
 #### Session 4: Thursday, 9:00-10:30, parallel tutorials
