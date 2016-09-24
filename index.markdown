@@ -40,7 +40,8 @@ We are happy to announce that we have accepted 11 talks and 4 tutorials. See bel
   <small>[slides](slides/HAL2016-brunjes.pdf)</small>  
   *by [Lars Brünjes]*
 * **Random access lists, nested data types and numeral systems**
-  <small>[abstract](program.html#komuves)</small>  
+  <small>[abstract](program.html#komuves)</small>
+  <small>[slides](slides/HAL2016-komuves.pdf)</small>  
   *by Balázs Kőműves*
 * **Generalized Algebraic Dynamic Programming: Theory and Applications in Bioinformatics and Linguistics**
   <small>[abstract](program.html#stadler)</small>  
