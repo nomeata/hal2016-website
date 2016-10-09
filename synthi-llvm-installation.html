@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Installations for the synthesizer-llvm tutorial</title>
+        <link rel="stylesheet" type="text/css" href="./css/default.css" />
+        <link rel="stylesheet" type="text/css" href="./css/hk-pyg.css" />
+    </head>
+    <body>
+        <!--
+        <div id="header">
+            <div id="logo">
+                <a href="/">Installations for the synthesizer-llvm tutorial</a>
+            </div>
+            <div id="navigation">
+                <a href="/">Installations for the synthesizer-llvm tutorial</a>
+                <a href="/about.html">About</a>
+                <a href="/contact.html">Contact</a>
+                <a href="/archive.html">Archive</a>
+            </div>
+        </div>
+	-->
+
+        <div id="content">
+	    
+            <h1>Installations for the synthesizer-llvm tutorial</h1>
+	    
+
+
+        
+
+            <p>The following instructions might appear to be lengthy and cumbersome, but they boil essentially down to: Install LLVM and SoX, create and install a custom <code>llvm.pc</code> file and then install <code>synthesizer-llvm</code> via the common Cabal workflow.</p>
+<h2 id="installing-llvm">Installing LLVM</h2>
+<p>The tutorial relies on the <a href="http://llvm.org/">LLVM</a> compiler framework. The <code>synthesizer-llvm</code> package uses it like a machine-independent assembly language. Currently we support LLVM-3.8 optimally. This was the current version until 2016-09-02. In principle we support LLVM versions back to 3.4, but there were some changes in the types of so called intrinsics that are used to address processor specific machine instructions. If your LLVM version is too old, some <code>synthesizer-llvm</code> examples will fail with errors like this one:</p>
+<pre><code>Intrinsic has incorrect argument type!
+&lt;4 x float&gt; (&lt;4 x float&gt;, &lt;4 x float&gt;, i8)* @llvm.x86.sse41.dpps
+LLVM ERROR: Broken function found, compilation aborted!</code></pre>
+<p>If you cannot manage to install LLVM-3.8, you may ask me and we will find fixes to support older versions of LLVM. However, LLVM-3.6 had a serious problem with callback functions that I could not work around.</p>
+<p>On Debian and Ubuntu you can install appropriate LLVM-3.8 packages from the LLVM <a href="http://apt.llvm.org/">package repositories</a>.</p>
+<p>On Windows 64 bit you may download my pre-built binaries either as big <a href="http://code.haskell.org/~thielema/llvm-ffi/archive/llvm-3.8-windows-7-64bit.zip">ZIP archive</a> or as small <a href="http://code.haskell.org/~thielema/llvm-ffi/archive/llvm-3.8-windows-7-64bit.tar.xz">Tar XZ archive</a>. They are built with MSYS2 and must be unpacked under <code>/usr/local</code> such that the complete installation path is <code>/usr/local/llvm-3.8</code>. I assume that an MSYS2 installation is not even necessary, but I have not tested it.</p>
+<p>I do not have an idea of the installation procedure on Mac. However, LLVM is developed by Apple thus installation should not be overly complicated.</p>
+<p>You may also build LLVM yourself from sources. I suggest that you configure the build with</p>
+<pre><code>cmake -G &quot;Unix Makefiles&quot; -DCMAKE_INSTALL_PREFIX=/usr/local/llvm-3.8 -DLLVM_BUILD_LLVM_DYLIB=ON -DLLVM_LINK_LLVM_DYLIB=ON -DCMAKE_BUILD_TYPE=Release -DLLVM_ENABLE_ASSERTIONS=ON /your/path/to/llvm-3.8.1.src/</code></pre>
+<p>The default configuration is a Debug build that gnerates more than 6 GB of data. By switching to Release build with asserts and dynamic linking as above, it will only build about 600 MB of data. I think that for our needs you even only need the content of the include directory and the <code>lib/libLLVM-3.8.so</code> on Linux or the <code>bin/LLVM.dll</code> on Windows.</p>
+<h2 id="installing-llvm-ffi">Installing <code>llvm-ffi</code></h2>
+<p>The first step in the setup of Haskell packages should be</p>
+<pre><code>cabal update</code></pre>
+<p>in order to fetch the list of all recently updated packages.</p>
+<p>The good news is: My packages work with any version of GHC from 7.4 to 8.0. The bad news is: The low-level bindings to LLVM, namely the package <code>llvm-ffi</code>, require extra steps for installation. The ancestor package <code>llvm-base</code> tried to do the configuration automatically using <code>autoconf</code> and some <code>Setup.hs</code> stuff that depended on a particular Cabal version. I replaced this by <code>pkg-config</code> configuration because Cabal supports that optimally. However, in order to work nicely it would require that LLVM comes with a PkgConfig file, which it does not.</p>
+<p>It is pretty simple to create such a config file, though. You may install and run my program <a href="https://hackage.haskell.org/package/llvm-pkg-config">llvm-pkg-config</a>. It should create a configuration like this one:</p>
+<pre><code>Name: LLVM
+Description: Low-level Virtual Machine compiler framework
+Version: 3.8
+URL: http://www.llvm.org/
+Requires:
+Conflicts:
+Libs: -L/usr/lib/llvm-3.8/lib -lLLVM-3.8
+Cflags: -I/usr/lib/llvm-3.8/include -std=c++11</code></pre>
+<p>You may just adapt the above content to your needs and write it to <code>/usr/local/lib/pkgconfig/llvm-3.8.pc</code> or to any other location you find appropriate. Then adapt the environment variable <code>PKG_CONFIG_PATH</code> appropriately.</p>
+<p>You may now install <code>llvm-ffi</code>:</p>
+<pre><code>cabal install -fbuildExamples llvm-ffi</code></pre>
+<p>If you run <code>llvm-ffi-example</code> it should emit:</p>
+<pre><code>[-2.0,-1.0,0.0,1.0,2.0,3.0,4.0,5.0]</code></pre>
+<p>At least, it should not crash.</p>
+<h2 id="installation-of-synthesizer-llvm">Installation of <code>synthesizer-llvm</code></h2>
+<p>Now installation of the main package should no longer be difficult.</p>
+<pre><code>cabal install -fbuildExamples synthesizer-llvm</code></pre>
+<p>This should build all necessary packages and some example executables. If you have <a href="http://sox.sourceforge.net/">SoX</a> installed, you may play a MIDI file using</p>
+<pre><code>synthi-llvm-render your-music.mid</code></pre>
+<p>where <code>your-music.mid</code> is a MIDI file of your choice. The instruments won’t match the ones you expect, but there should be some musical noise. (And due to a SoX bug, playback will silence after about 2 minutes.)</p>
+<p>You may also try</p>
+<pre><code>synthi-llvm-example</code></pre>
+<p>This should generate a big file called <code>speedtest.f32</code> containing a filter effect. You can play it via SoX’ <code>play</code> command:</p>
+<pre><code>play -r 44100 speedtest.f32</code></pre>
+<p>We will use SoX throughout the tutorial, so please install that, too.</p>
+<p>If you are on Linux you should also compile support for Linux’ audio system ALSA.</p>
+<pre><code>cabal install -fbuildExamples synthesizer-alsa synthesizer-llvm</code></pre>
+<p>This will support live processing of MIDI commands.</p>
+<p>On any platform you may also install JACK</p>
+<pre><code>cabal install -fbuildExamples -fjack jack synthesizer-llvm</code></pre>
+<p>for support of live processing.</p>
+<h2 id="final-words">Final words</h2>
+<p>If you have trouble with installation, please contact me via &lt;<a href="mailto:haskell@henning-thielemann.de">haskell@henning-thielemann.de</a>&gt;.</p>
+
+        </div>
+
+        <div id="footer">
+            Site proudly generated by
+            <a href="http://jaspervdj.be/hakyll">Hakyll</a>
+        </div>
+    </body>
+</html>
