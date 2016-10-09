@@ -104,7 +104,8 @@ We are happy to announce that we have accepted 11 talks and 4 tutorials. See bel
   <small>[slides](slides/HAL2016-graf.pdf)</small>  
   *by Sebastian Graf*
 * **Store: An Efficient Binary Serialization Library**
-  <small>[abstract](program.html#kant)</small>  
+  <small>[abstract](program.html#kant)</small>
+  <small>[slides](slides/2016-hal-store.html)</small>
   *by Philipp Kant*
 * **Automated Performance Measurements**
   <small>[abstract](program.html#waldmann)</small>  
